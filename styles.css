@@ -21,11 +21,19 @@ a {
   color: var(--primary);
 }
 
+img { 
+  max-width: 100%;
+}
+
 header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem 8rem;
+  padding: 3rem 8rem;
 }
 
 header .nav {
@@ -45,4 +53,65 @@ header .nav-item a {
 header .nav-item.active a, 
 header .nav-item a:hover {
   font-weight: 700;
+}
+
+.split {
+  display: flex;
+  align-items: center;
+  padding: 0 6rem;
+}
+
+.split > div {
+  flex-basis: 50%;
+  margin: 0 2rem;
+}
+
+.illustration {
+  max-width: 650px;
+}
+
+.title {
+  line-height: 48px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+}
+
+.description {
+  line-height: 30px;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.link {
+  display: inline-block;
+  height: 55px;
+  min-width: 200px;
+  padding: 0 2rem;
+  border-radius: 55px;
+  line-height: 55px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.link.dark {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.hero .title {
+  max-width: 385px;
+  margin-bottom: 1.5rem;
+  font-size: 48px;
+}
+
+.hero .description {
+  max-width: 424px;
+  font-size: 21px;
 }
