@@ -1,0 +1,48 @@
+*,
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --text: #7d7987;
+  --primary: #458ff6;
+  --secondary: #1f1534;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: var(--text);
+  background-color: #fff;
+}
+
+a {
+  color: var(--primary);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 8rem;
+}
+
+header .nav {
+  display: flex;
+  align-items: center;
+}
+
+header .nav-item {
+  margin: 0 1rem;
+}
+
+header .nav-item a {
+  font-size: 18px;
+  color: var(--secondary);
+}
+
+header .nav-item.active a, 
+header .nav-item a:hover {
+  font-weight: 700;
+}
