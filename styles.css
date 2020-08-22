@@ -12,7 +12,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 10px;
   color: var(--text);
   background-color: #fff;
 }
@@ -77,6 +77,14 @@ header .nav-item a:hover {
   color: #000;
 }
 
+.divider {
+  width: 56px;
+  height: 2px;
+  margin: 2rem auto;
+  border-radius: 5px;
+  background-color: #000;
+}
+
 .description {
   line-height: 30px;
   margin-bottom: 2rem;
@@ -101,6 +109,38 @@ header .nav-item a:hover {
   color: #fff;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.card {
+  flex-basis: 30%;
+  max-width: 300px;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 1.5rem;
+  text-align: start;
+  box-shadow: 0px 15px 50px rgba(64, 137, 237, 0.1);
+  background-color: #fff;
+}
+
+.card .image-wrapper {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.card .title {
+  font-size: 24px;
+}
+
+.card .description {
+  font-size: 16px;
+}
+
 .hero {
   height: 100vh;
 }
@@ -114,4 +154,23 @@ header .nav-item a:hover {
 .hero .description {
   max-width: 424px;
   font-size: 21px;
+}
+
+.services {
+  padding: 4rem 8rem;
+  text-align: center;
+  background-image: url('./images/bg\ element.png') , url('./images/element.png') ;
+  background-repeat: no-repeat;
+  background-size: 800px, 80px;
+  background-position: left center, 95% center;
+}
+
+.services .description {
+  max-width: 900px;
+  margin: auto;
+}
+
+.services .cards .card img {
+  transform: scale(0.5) translateX(-50%);
+
 }
