@@ -85,6 +85,10 @@ header .nav-item a:hover {
   background-color: #000;
 }
 
+.divider.left {
+  margin-left: 0;
+}
+
 .description {
   line-height: 30px;
   margin-bottom: 2rem;
@@ -107,6 +111,12 @@ header .nav-item a:hover {
 .link.dark {
   background-color: var(--primary);
   color: #fff;
+}
+
+.link.light{
+  background-color: #fff;
+  color: var(--primary);
+  border: 1px solid var(--primary);
 }
 
 .cards {
@@ -172,5 +182,12 @@ header .nav-item a:hover {
 
 .services .cards .card img {
   transform: scale(0.5) translateX(-50%);
+}
 
+.providers {
+  height: 100vh;
+}
+
+.mobile-apps {
+  height: 100vh;
 }
