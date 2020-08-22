@@ -77,6 +77,11 @@ header .nav-item a:hover {
   color: #000;
 }
 
+.title.light {
+  color: #fff;
+  text-align: center;
+}
+
 .divider {
   width: 56px;
   height: 2px;
@@ -89,11 +94,28 @@ header .nav-item a:hover {
   margin-left: 0;
 }
 
+.divider.light {
+  background-color: #fff;
+}
+
 .description {
   line-height: 30px;
   margin-bottom: 2rem;
   font-weight: 300;
   font-size: 18px;
+}
+
+.description.light, .position {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.name {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
 }
 
 .link {
@@ -184,10 +206,39 @@ header .nav-item a:hover {
   transform: scale(0.5) translateX(-50%);
 }
 
-.providers {
+.providers, .mobile-apps {
   height: 100vh;
 }
 
-.mobile-apps {
-  height: 100vh;
+.customer-saying {
+  margin: 8rem;
+  padding: 4rem 8rem;
+  border-radius: 24px;
+  background-color: var(--primary);
 }
+
+.user-split {
+  display: flex;
+  align-items: center;
+}
+
+.comment {
+  flex-basis: 50%;
+  width: 120px;
+}
+
+.user {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.user img {
+  width: 120px;
+}
+
+.user-position {
+  margin: 0 1rem;
+  line-height: 30px;
+}
+
