@@ -68,6 +68,11 @@ footer .info {
   max-width: 350px;
 }
 
+footer .info img {
+  width: 160px;
+  margin-bottom: 1rem;
+}
+
 footer .description {
   line-height: 28px;
   font-size: 18px;
@@ -168,13 +173,23 @@ footer .copyright {
 }
 
 .link.light.border-none {
+  padding: 0;
+  border: none;
   background-color: #fff;
   color: var(--primary);
-  border: none;
   text-align: left;
-  padding: 0;
 }
 
+.link-white {
+  display: block;
+  border: none;
+  color: #fff;
+  text-align: left;
+  line-height: 38px;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -308,24 +323,10 @@ footer .copyright {
   text-align: center;
 }
 
-.company .title, .region .title, .help  .title
-{
-  font-size: 20px;
+.company .title, .region .title, .help  .title {
   color: #fff;
+  font-size: 20px;
   text-align: left;
 }
 
-.footer .info img {
-  width: 160px;
-  margin-bottom: 1rem;
-}
-.link-white {
-  color: #fff;
-  border: none;
-  text-align: left;
-  font-weight: 300;
-  line-height: 38px;
-  font-style: normal;
-  display: block;
-  font-size: 18px;
-}
+
