@@ -55,6 +55,31 @@ header .nav-item a:hover {
   font-weight: 700;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20rem 0rem 0rem;
+  padding: 6rem 8rem;
+  background-color: var(--primary);
+  color: #fff;
+}
+
+footer .info {
+  max-width: 350px;
+}
+
+footer .description {
+  line-height: 28px;
+  font-size: 18px;
+}
+
+footer .copyright {
+  line-height: 28px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+}
+
 .split {
   display: flex;
   align-items: center;
@@ -201,7 +226,7 @@ header .nav-item a:hover {
 .services {
   padding: 4rem 8rem;
   text-align: center;
-  background-image: url('./images/bg\ element.png'), url('./images/element.png');
+  background-image: url('./images/bg/element.png'), url('./images/element.png');
   background-repeat: no-repeat;
   background-size: 800px, 80px;
   background-position: left center, 95% center;
@@ -253,6 +278,10 @@ header .nav-item a:hover {
   line-height: 30px;
 }
 
+.blog {
+  height: 100vh;
+}
+
 .blog > .title {
   text-align: center;
 }
@@ -277,4 +306,26 @@ header .nav-item a:hover {
 
 .blog .view {
   text-align: center;
+}
+
+.company .title, .region .title, .help  .title
+{
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+}
+
+.footer .info img {
+  width: 160px;
+  margin-bottom: 1rem;
+}
+.link-white {
+  color: #fff;
+  border: none;
+  text-align: left;
+  font-weight: 300;
+  line-height: 38px;
+  font-style: normal;
+  display: block;
+  font-size: 18px;
 }
